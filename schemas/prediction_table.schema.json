@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Normalized variant-level prediction TSV row",
+  "type": "object",
+  "required": ["VariationID", "GeneSymbol", "configuration_id", "model", "regime", "context_bp", "binary_label", "score", "prediction", "threshold", "score_semantics", "score_direction", "source_path"],
+  "properties": {
+    "VariationID": {"type": "string", "pattern": "^[0-9]+$"},
+    "GeneSymbol": {"type": "string", "minLength": 1},
+    "configuration_id": {"type": "string", "minLength": 1},
+    "model": {"type": "string", "minLength": 1},
+    "regime": {"type": "string", "enum": ["frozen", "adapted", "native", "native_sensitivity"]},
+    "context_bp": {"type": "string", "enum": ["", "101", "201", "501"]},
+    "binary_label": {"type": "string", "enum": ["0", "1"]},
+    "score": {"type": "string"},
+    "prediction": {"type": "string", "enum": ["0", "1"]},
+    "threshold": {"type": "string"},
+    "score_semantics": {"type": "string", "minLength": 1},
+    "score_direction": {"const": "higher_is_more_pathogenic_like"},
+    "source_path": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}

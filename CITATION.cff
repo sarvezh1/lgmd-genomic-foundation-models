@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the software and accompanying unpublished manuscript using these authors and title."
+title: "Genomic foundation models and complementary variant-scoring strategies in LGMD-associated genes: architecture, adaptation, and sequence context"
+type: software
+license: MIT
+authors:
+  - family-names: Galgale
+    given-names: Sarvesh
+    orcid: "https://orcid.org/0009-0001-1400-6177"
+    affiliation: "Department of Biotechnology, School of Applied Sciences, REVA University; Center for Biotechnology and Molecular Biology, REVA Research Centre, REVA University"
+  - family-names: Vats
+    given-names: Isha
+    orcid: "https://orcid.org/0009-0006-0688-2835"
+    affiliation: "Kusuma School of Biological Sciences, Indian Institute of Technology Delhi"
+  - family-names: Wilson
+    given-names: Josna
+    orcid: "https://orcid.org/0009-0000-5749-7343"
+    affiliation: "Department of Genetics, Manipal Hospital, Old Airport Road, Bengaluru"
+  - family-names: Haldar
+    given-names: Agnik
+    orcid: "https://orcid.org/0000-0002-0725-1406"
+    email: "agnik.haldar@reva.edu.in"
+    affiliation: "Department of Biotechnology, School of Applied Sciences, REVA University; Center for Biotechnology and Molecular Biology, REVA Research Centre, REVA University"
+abstract: "Analysis code, canonical LGMD-associated ClinVar benchmark, and variant-level predictions supporting evaluation of genomic foundation models and complementary variant-scoring strategies. Complete original foundation-model training and inference environments are not distributed."
+keywords:
+  - genomic foundation models
+  - variant-effect prediction
+  - limb-girdle muscular dystrophy
+  - ClinVar
+  - reproducible research

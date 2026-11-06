@@ -1,0 +1,9 @@
+configuration_id	model	evaluation_protocol	score_semantics	threshold_scope	records
+dnabert2__gene_heldout	DNABERT-2	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+nt_v2__gene_heldout	NT-v2	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+hyenadna__gene_heldout	HyenaDNA	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+caduceus_ph__gene_heldout	Caduceus-Ph	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+moderngena__gene_heldout	modernGENA	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+evo2__gene_heldout	Evo2	sequence_logo_readout	gene-held-out logistic-regression probability	fixed 0.5; classifier fit without held-out gene	2094
+gpn_star_v100__gene_heldout_threshold	GPN-Star V100	native_nine_gene_threshold	negative mutation-rate-calibrated log-likelihood ratio	gene-specific threshold selected from other nine training genes	2094
+alphagenome_avi__gene_heldout_threshold	AlphaGenome AVI	native_nine_gene_threshold	PHRED-transformed Atlas quantile	gene-specific threshold selected from other nine training genes	2094

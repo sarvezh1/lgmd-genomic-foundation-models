@@ -1,0 +1,75 @@
+{
+  "canonical_variants": 6960,
+  "distinct_loci": 6094,
+  "files": {
+    "canonical": {
+      "path": "data/canonical_variants.tsv",
+      "records": 6960,
+      "sha256": "1564212e6f4861851c15e05a2db74233d0819b9bf815bb78d0a8cd49d2693832"
+    },
+    "configuration_registry": {
+      "path": "data/configurations.tsv",
+      "records": 28,
+      "sha256": "a92aa05d3df94e9b76d42c437a786dd5a5442fb01c39f305c5853bd4a10cc760"
+    },
+    "primary_predictions": {
+      "path": "data/predictions_primary.tsv",
+      "records": 54444,
+      "sha256": "6dbab116b8cb21dcdc7834cc0ea4f8eeba1aeca5156caad115a1ff0285bb4e72"
+    },
+    "recurrent_hard": {
+      "path": "data/recurrent_hard_variants.tsv",
+      "records": 787,
+      "sha256": "3fe979ad7245d06f98c96917153a0b7a37a1d342116523ab99a982904755259b"
+    },
+    "sensitivity_predictions": {
+      "path": "data/predictions_sensitivity.tsv",
+      "records": 4188,
+      "sha256": "b7b1ce621e444c4095043e8f7903a554dedf01cf15dfb0066e32371477ea95c9"
+    },
+    "source_to_result": {
+      "path": "metadata/source_to_result.tsv",
+      "records": 452,
+      "sha256": "f5678375aff671cefdffa628ca96b122bd84de9c920d6917890837858c35366e"
+    }
+  },
+  "gene_heldout": {
+    "configurations": 8,
+    "files": {
+      "gene_heldout_intervals": {
+        "path": "data/gene_heldout_intervals.tsv",
+        "records": 24,
+        "sha256": "9aff823fc6cb5429e48ada426feff71099bc4a09b5dc41f25b8a1de5cd719002"
+      },
+      "gene_heldout_predictions": {
+        "path": "data/gene_heldout_predictions.tsv",
+        "records": 16752,
+        "sha256": "b1d126aa2a73125db36f412fd2295101c8c82adfa4ba085fed8cdee2bfc061a8"
+      },
+      "gene_heldout_registry": {
+        "path": "data/gene_heldout_configurations.tsv",
+        "records": 8,
+        "sha256": "0d35fa888fc6e59178434d33c281cbd6367a8325339228e66290e6753440913a"
+      },
+      "table4": {
+        "path": "tables/reference_table4.tsv",
+        "records": 8,
+        "sha256": "27410605c42125585d05acfc2de509c78645265af12df57bfe543f9a69f3cb47"
+      }
+    },
+    "interval_method": "1,000 paired within-gene whole-locus bootstrap replicates; seed 1605; 2.5th and 97.5th percentiles",
+    "prediction_records": 16752,
+    "protocol": "Gene-held-out downstream evaluation; distinct from fixed-test fitting",
+    "test_variants": 2094,
+    "version": "2.0"
+  },
+  "primary_configurations": 26,
+  "primary_prediction_records": 54444,
+  "sensitivity_configurations": 2,
+  "sensitivity_prediction_records": 4188,
+  "test_negative": 1585,
+  "test_positive": 509,
+  "test_variants": 2094,
+  "train_variants": 4866,
+  "version": "2.0"
+}

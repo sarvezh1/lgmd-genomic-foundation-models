@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Canonical LGMD benchmark TSV row",
+  "type": "object",
+  "required": ["VariationID", "GeneSymbol", "Chromosome", "Position", "REF", "ALT", "binary_label", "split", "locus_id", "fold_id", "genome_build", "reference_accession"],
+  "properties": {
+    "VariationID": {"type": "string", "pattern": "^[0-9]+$"},
+    "GeneSymbol": {"type": "string", "minLength": 1},
+    "Chromosome": {"type": "string"},
+    "Position": {"type": "string", "pattern": "^[1-9][0-9]*$"},
+    "REF": {"type": "string", "pattern": "^[ACGT]$"},
+    "ALT": {"type": "string", "pattern": "^[ACGT]$"},
+    "binary_label": {"type": "string", "enum": ["0", "1"]},
+    "split": {"type": "string", "enum": ["train", "test"]},
+    "locus_id": {"type": "string"},
+    "fold_id": {"type": "string"},
+    "genome_build": {"const": "GRCh38"},
+    "reference_accession": {"const": "GCF_000001405.40"}
+  },
+  "additionalProperties": false
+}

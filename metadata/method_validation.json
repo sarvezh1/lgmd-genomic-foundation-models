@@ -1,0 +1,63 @@
+{
+  "canonical_split": {
+    "assignment_mismatches": 0,
+    "candidate_combinations": 120,
+    "eligible_combinations": 49,
+    "fold_sizes": [
+      699,
+      698,
+      691,
+      685,
+      713,
+      694,
+      692,
+      703,
+      693,
+      692
+    ],
+    "locus_overlap": 0,
+    "selected_test_folds": [
+      1,
+      7,
+      8
+    ],
+    "test_loci": 1834,
+    "test_variants": 2094,
+    "train_loci": 4260,
+    "train_variants": 4866
+  },
+  "clinvar_preprocessing": {
+    "authenticated_source_sha256": "acc8e6aef2f66c6fe86130f06bfb0539b3c64a0f83f9629fb99024a6620122c6",
+    "canonical_field_mismatches": 0,
+    "canonical_identifier_mismatches": 0,
+    "source_release_date_available": false,
+    "stage_counts": {
+      "accepted_clinical_significance": 8482,
+      "corrected_canonical": 6960,
+      "grch38": 4456834,
+      "raw_clinvar": 8981173,
+      "snvs": 6962,
+      "ten_gene_panel": 14931
+    }
+  },
+  "gene_heldout_bootstrap": {
+    "all_intervals_reproduced": true,
+    "bounds": 48,
+    "intervals": 24,
+    "maximum_absolute_difference": 4.996003610813204e-16,
+    "replicates": 1000,
+    "seed": 1605
+  },
+  "sequence_extraction": {
+    "ambiguous_reference_bases": 0,
+    "contexts_bp": [
+      101,
+      201,
+      501
+    ],
+    "mismatches": 0,
+    "reference": "NCBI RefSeq GRCh38.p14 (GCF_000001405.40)",
+    "reference_and_alternate_sequences_compared": 41760,
+    "variants_per_context": 6960
+  }
+}

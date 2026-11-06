@@ -1,0 +1,15 @@
+path	bytes	sha256	role
+figures/figure1.png	312035	5806fd847087d80222495fad66ebeea8878c91b7bbbfb5ab4dee875d52fc1597	approved Figure 1 frozen embedding workflow (PNG)
+figures/figure1.pdf	64197	95aa6478c2ec9ce6b4ccd8cce32bda6a5e45a8ebd81717207a8d11d9dc76496c	approved Figure 1 frozen embedding workflow (vector PDF)
+figures/figure2.png	292074	cc0647232823b5e588edd6315c9375c897bb5e6521f1adf211c33bee1a615847	approved result Figure 2 (PNG; formerly Figure 1)
+figures/figure2.pdf	28246	98e31e265891da9b2afb7cc5a67f4ba2bd855dfd0a755dbe8d69ad606edc6391	approved result Figure 2 (PDF; formerly Figure 1)
+tables/publication_table1.tsv	1893	f562f67dc551d964c3621ded81ab511fb9d696ccddcc0b179545cd3919cc16c6	approved Table 1
+figures/figure3.png	242446	7846de56cd6803519b986477b870d382a1b7b09bab9349dec5788bea35326896	approved result Figure 3 (PNG; formerly Figure 2)
+figures/figure3.pdf	22083	7bf15905d43f1e15544661cf74a590088267b5179061fc0deeaf9bf3c1f66a87	approved result Figure 3 (PDF; formerly Figure 2)
+tables/publication_table2.tsv	1716	222633d9b9500a6c49fff8465229bc39bdaf78340b841a7eefedb5c6c6182219	approved Table 2
+figures/figure4.png	144661	00049a1b24b63635cebe10bca5124e5476aadc506b2dd4c88bd5a7b2cb0a6733	approved result Figure 4 (PNG; formerly Figure 3)
+figures/figure4.pdf	17321	80b2bdfe1ffb532d711a91b2dc21d39023d720874e263d447b0f42b19dde5106	approved result Figure 4 (PDF; formerly Figure 3)
+tables/publication_table3.tsv	300	db7817839eb812628d7253da119d0542fec7c49ec3afd28b74b76e9239e58f55	approved Table 3
+figures/figure5.png	239737	57631dd9139830e7fca33557aa2d130c307fb6045af1d9d02fcd47fa1a27b1fc	approved result Figure 5 (PNG; formerly Figure 4)
+figures/figure5.pdf	19517	e8863ed80d9d1d0ce78e2d8d9db633038076f336ab2b2f0e74289cad7908f8ba	approved result Figure 5 (PDF; formerly Figure 4)
+tables/publication_table4.tsv	1277	c22d3e9c7405cfc3461bbd71e4df7c423136d01a40de712395c8081f703d9df8	approved Table 4

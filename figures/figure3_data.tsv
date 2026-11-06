@@ -1,0 +1,37 @@
+model	metric	contrast	difference
+DNABERT-2	MCC	adapted_minus_frozen101	0.06447589893482714
+DNABERT-2	MCC	frozen501_minus_frozen101	0.16221563002570905
+DNABERT-2	AUROC	adapted_minus_frozen101	0.09807750708074847
+DNABERT-2	AUROC	frozen501_minus_frozen101	0.10034520585300555
+DNABERT-2	AUPRC	adapted_minus_frozen101	0.1585127045180691
+DNABERT-2	AUPRC	frozen501_minus_frozen101	0.1871344535098023
+Nucleotide Transformer V2	MCC	adapted_minus_frozen101	0.10211325742770047
+Nucleotide Transformer V2	MCC	frozen501_minus_frozen101	0.15184229981455485
+Nucleotide Transformer V2	AUROC	adapted_minus_frozen101	0.13821930797692017
+Nucleotide Transformer V2	AUROC	frozen501_minus_frozen101	0.044513582022026266
+Nucleotide Transformer V2	AUPRC	adapted_minus_frozen101	0.25593257481989085
+Nucleotide Transformer V2	AUPRC	frozen501_minus_frozen101	0.13254795232061678
+HyenaDNA	MCC	adapted_minus_frozen101	0.09758087872835278
+HyenaDNA	MCC	frozen501_minus_frozen101	-0.08702299168176492
+HyenaDNA	AUROC	adapted_minus_frozen101	0.06849144422477416
+HyenaDNA	AUROC	frozen501_minus_frozen101	-0.024683767887798802
+HyenaDNA	AUPRC	adapted_minus_frozen101	0.11142604632255793
+HyenaDNA	AUPRC	frozen501_minus_frozen101	-0.0337029286913379
+Caduceus-Ph	MCC	adapted_minus_frozen101	-0.06266922893401497
+Caduceus-Ph	MCC	frozen501_minus_frozen101	0.05020913894193185
+Caduceus-Ph	AUROC	adapted_minus_frozen101	-0.025847675593264507
+Caduceus-Ph	AUROC	frozen501_minus_frozen101	0.030785916592812046
+Caduceus-Ph	AUPRC	adapted_minus_frozen101	-0.06234418269679942
+Caduceus-Ph	AUPRC	frozen501_minus_frozen101	0.060449903095885826
+modernGENA	MCC	adapted_minus_frozen101	-0.16040302354680083
+modernGENA	MCC	frozen501_minus_frozen101	0.014002972549170406
+modernGENA	AUROC	adapted_minus_frozen101	-0.06964977409778561
+modernGENA	AUROC	frozen501_minus_frozen101	0.022312569335556254
+modernGENA	AUPRC	adapted_minus_frozen101	-0.07175621132295085
+modernGENA	AUPRC	frozen501_minus_frozen101	0.04164636946511319
+Evo2	MCC	adapted_minus_frozen101	-0.21171183896272805
+Evo2	MCC	frozen501_minus_frozen101	0.21995148936606523
+Evo2	AUROC	adapted_minus_frozen101	-0.012836451754848044
+Evo2	AUROC	frozen501_minus_frozen101	0.08494914876079152
+Evo2	AUPRC	adapted_minus_frozen101	-0.033964221155581065
+Evo2	AUPRC	frozen501_minus_frozen101	0.13315363537443814
