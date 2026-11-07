@@ -1,5 +1,10 @@
 # Genomic foundation models and complementary variant scoring in LGMD-associated genes
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24028595.svg)](https://doi.org/10.5281/zenodo.24028595)
+[![Release](https://img.shields.io/github/v/release/sarvezh1/lgmd-genomic-foundation-models?label=release)](https://github.com/sarvezh1/lgmd-genomic-foundation-models/releases/tag/v1.0.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](requirements.txt)
+
 This repository accompanies **Genomic foundation models and complementary
 variant-scoring strategies in LGMD-associated genes: architecture, adaptation,
 and sequence context**. It provides the canonical benchmark, variant-level
@@ -112,11 +117,24 @@ reported separately and do not establish unseen-region or clinical
 generalization. Original model-training and inference runs cannot all be
 regenerated from the distributed files.
 
+
 ## Citation, authors, and license
 
-Authors: Sarvesh Galgale, Isha Vats, Josna Wilson, and Agnik Haldar. Citation
-metadata are provided in [CITATION.cff](CITATION.cff).
+If you use the benchmark data, model predictions, or analysis code,
+please cite the archived v1.0.0 release:
 
-Original repository software is released under the [MIT License](LICENSE).
-Third-party data, model resources, and provider outputs are not relicensed
-under MIT.
+> Galgale, S., Vats, I., Wilson, J., & Haldar, A. (2026).
+> *Genomic foundation models and complementary variant-scoring
+> strategies in LGMD-associated genes: architecture, adaptation,
+> and sequence context* (Version 1.0.0) [Computer software].
+> Zenodo. https://doi.org/10.5281/zenodo.24028595
+
+Machine-readable citation metadata is available in
+[CITATION.cff](CITATION.cff).
+
+Please also cite the accompanying research manuscript once published.
+
+Original repository code is released under the
+[MIT License](LICENSE). Third-party datasets, model resources, and
+provider-derived outputs remain subject to their respective terms,
+as described in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

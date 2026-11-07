@@ -1,6 +1,11 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the software and accompanying unpublished manuscript using these authors and title."
+message: "If you use this benchmark, predictions, or analysis code, please cite the archived software release. Please also cite the accompanying research manuscript when published."
 title: "Genomic foundation models and complementary variant-scoring strategies in LGMD-associated genes: architecture, adaptation, and sequence context"
+version: "1.0.0"
+date-released: "2026-11-07"
+doi: "10.5281/zenodo.24028595"
+repository-code: "https://github.com/sarvezh1/lgmd-genomic-foundation-models"
+url: "https://doi.org/10.5281/zenodo.24028595"
 type: software
 license: MIT
 authors:
